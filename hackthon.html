@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentor & Mentee Meetups</title>
+    <link rel="stylesheet" href="hackthon.css">
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#mentor-profile" class="nav-link">Mentor Profile</a></li>
+                <li><a href="#meetup-schedule" class="nav-link">Meetup Schedule</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="#emergency" class="nav-link">Emergency</a></li>
+                <li><a href="#premium" class="nav-link">Premium</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Mentor Profile page content -->
+        <section id="mentor-profile" class="bg-mentor">
+            <h1>Mentor Profile</h1>
+            <p>View mentor profiles and connect with them.</p>
+            <div class="mentor-options">
+                <h2>Choose a Mentor:</h2>
+                <ul>
+                    <li><a href="#" class="nav-link">Rahul Sharma (Teacher)</a></li>
+                    <li><a href="#" class="nav-link">Dr. Priya Patel (Doctor)</a></li>
+                    <li><a href="#" class="nav-link">Rajesh Kumar (Coder)</a></li>
+                    <li><a href="#" class="nav-link">Inspector Vijay Singh (Police)</a></li>
+                    <li><a href="#" class="nav-link">Advocate Rohan Mehta</a></li>
+                    <!-- Add more options here -->
+                </ul>
+            </div>
+            <div class="mentor-card">
+                <!-- Mentor profile will be displayed here -->
+                <h2>Mentor Name: Rahul Sharma</h2>
+                <p>Mentor Bio: Rahul is a experienced teacher with a passion for mentoring.</p>
+                <img src="mentor-profile.jpg" alt="Mentor Profile Picture">
+            </div>
+            <button class="btn-schedule-meeting">Schedule a Meeting</button>
+            <div class="calendar-container">
+                <div class="calendar">
+                    <!-- Calendar will be displayed here -->
+                    <div id="calendar"></div>
+                </div>
+            </div>
+            <!-- Add a feedback section -->
+            <section id="feedback" class="bg-feedback">
+                <h1>Leave Feedback</h1>
+                <p>Help us improve by leaving feedback about your experience with this mentor.</p>
+                <form>
+                    <label for="rating">Rating (1-5):</label>
+                    <input type="number" id="rating" name="rating" min="1" max="5">
+                    <label for="feedback-text">Feedback:</label>
+                    <textarea id="feedback-text" name="feedback-text"></textarea>
+                    <button class="btn-submit">Submit Feedback</button>
+                </form>
+            </section>
+        </section>
+        <!-- Premium feature section -->
+        <section id="premium" class="bg-premium">
+            <h1>Upgrade to Premium</h1>
+            <p>Get exclusive benefits and features by upgrading to our premium plan.</p>
+            <ul>
+                <li>Priority access to top mentors</li>
+                <li>Personalized matchmaking</li>
+                <li>Exclusive events and webinars</li>
+                <li>Priority customer support</li>
+            </ul>
+            <button class="btn-upgrade">Upgrade Now</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

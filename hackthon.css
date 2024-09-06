@@ -1,0 +1,32 @@
+/* Add styles for the navigation bar */
+.nav-bar {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav-bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar li {
+    margin-right: 20px;
+}
+
+.nav-bar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-bar a:hover {
+    color: #ccc;
+}
+
+/* Add styles for the premium feature section */
+.bg-premium {
+    background-color: #f7f7f7;
+    padding: 20
